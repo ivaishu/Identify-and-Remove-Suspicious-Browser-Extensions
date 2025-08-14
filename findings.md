@@ -12,29 +12,41 @@
 
 2. **Microsoft Power Automate**  
    - **Developer**: Microsoft  
-   - **Permissions**: Enable web automation tasks.  
-   - **Risk Assessment**: ✅ Safe — official Microsoft extension, necessary only if using Power Automate desktop.
+   - **Permissions**: Enables web automation tasks; works with Power Automate desktop.  
+   - **Store Rating**: **2.0 / 5 stars** (147 reviews)  
+   - **Risk Assessment**: ⚠️ Potentially concerning — although it is from Microsoft, many users reported suspicious installation behavior.
+
+---
+
+## User Review Highlights (Microsoft Power Automate)
+- **“bro what is this and why did it install randomly”** – Apr 18, 2025  
+- **“Think I might have a virus that installed this”** – Mar 19, 2025  
+- **“Why it tried to install? … red flag”** – Feb 24, 2025  
+- **Positive Review:** “Very useful and intuitive automation tool… allows the Windows app to perform web automation functions” – Apr 13, 2025
 
 ---
 
 ## Actions Taken
-- Both extensions are from **trusted developers**.
-- No suspicious or malicious extensions found.
-- **Microsoft Power Automate** was disabled since it’s not actively used, reducing potential attack surface.
+- Verified both extensions' developers (Google & Microsoft).
+- **Microsoft Power Automate** was **disabled** since:
+  - It is not actively used.
+  - Poor user ratings and multiple reports of unexpected installation raise security concerns.
+- **Google Docs Offline** was kept active due to its legitimate and frequent use.
 
 ---
 
 ## After Cleanup
 - Extensions active: **1** (Google Docs Offline)
 - Extensions disabled: **1** (Microsoft Power Automate)
-- Browser security risk: Low
+- Browser security risk: Reduced
 
 ---
 
 ## Conclusion
-The Brave browser installation is secure regarding extensions. Regular audits are still recommended, especially after installing new add-ons.
+While no obviously malicious extensions were found, disabling unused extensions with poor ratings and suspicious user reports is a good security practice. Even official extensions should be periodically reviewed for changes in permissions or unusual behavior.
 
 ---
 
 ## Screenshot Reference
-See [`screenshots/extensions_list.png`](screenshots/extensions_list.png) for the original list of extensions.
+- [`extensions_list.png`](screenshots/extensions_list.png) — initial list of installed extensions  
+- [`Microsoft_Power_Automate.png`](screenshots/Microsoft_Power_Automate.png) — user reviews from Chrome Web Store
